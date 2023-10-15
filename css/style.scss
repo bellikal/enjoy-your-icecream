@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'pacifico';
+    src: url('../fonts/Pacifico-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'fredoka';
+    src: url('../fonts/Fredoka-Regular.ttf')
+}
+
+$primary-color: #d3103e;
+$bg-color:#f55d6e;
+
+@mixin rightCorner() {
+    position: absolute;
+    bottom: 0;
+    right: 20vw;
+}
+
+@mixin circle($size, $bg-color: #f25d6e) {
+    width: $size;
+    height: $size;
+    background-color: $bg-color;
+    border-radius: 50%;
+}
+
+body {
+    background-color: #f5b1c2;
+    font-family: 'fredoka';
+}
+
+header {
+    @extend .center-all;
+    justify-content: space-between !important;
+    align-items: center;
+    padding: 0px 64px;
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+}
+
+ul {
+    display: flex;
+    @extend .center-all;
+}
+
+li {
+    list-style-type: none;
+    padding-inline: 1em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 32px;
+    &:hover {
+        color: $primary-color;
+    }
+}
+
+h1 {
+    color: $primary-color;
+    font-family: 'pacifico';
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    gap: 16px;
+}
+
+.button {
+    background-color: white;
+    border: unset;
+    height: 48px;
+    padding: 0px 16px ;
+    min-width: 150px;
+    border-radius: 24px;
+    font-family: inherit;
+    cursor: pointer;
+    @extend .center-all;
+    &:hover {
+        filter: brightness(1.2);
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    }
+}
+
+.center-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-button {
+    @extend .button;
+    background-color: $primary-color;
+    color: white !important;
+}
+   
+.main-text {
+    color: white;
+    position: absolute;
+    top: 20vh;
+    left: 64px;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+    p {
+        font-weight: bold;
+    }
+}
+
+.primary-color {
+    color: $primary-color;
+}
+
+.girl-ice {
+    width: 40vw;
+    @include rightCorner();
+}
+
+.circle {
+    @include rightCorner();
+    @include circle(35vw,);
+}
+

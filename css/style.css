@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "pacifico";
+  src: url("../fonts/Pacifico-Regular.ttf");
+}
+@font-face {
+  font-family: "fredoka";
+  src: url("../fonts/Fredoka-Regular.ttf");
+}
+body {
+  background-color: #f5b1c2;
+  font-family: "fredoka";
+}
+
+header {
+  justify-content: space-between !important;
+  align-items: center;
+  padding: 0px 64px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  padding-inline: 1em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 32px;
+}
+a:hover {
+  color: #d3103e;
+}
+
+h1 {
+  color: #d3103e;
+  font-family: "pacifico";
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+}
+
+.button, .primary-button {
+  background-color: white;
+  border: unset;
+  height: 48px;
+  padding: 0px 16px;
+  min-width: 150px;
+  border-radius: 24px;
+  font-family: inherit;
+  cursor: pointer;
+}
+.button:hover, .primary-button:hover {
+  filter: brightness(1.2);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.center-all, header, ul, .button, .primary-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-button {
+  background-color: #d3103e;
+  color: white !important;
+}
+
+.main-text {
+  color: white;
+  position: absolute;
+  top: 20vh;
+  left: 64px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.main-text p {
+  font-weight: bold;
+}
+
+.primary-color {
+  color: #d3103e;
+}
+
+.girl-ice {
+  width: 40vw;
+  position: absolute;
+  bottom: 0;
+  right: 20vw;
+}
+
+.circle {
+  position: absolute;
+  bottom: 0;
+  right: 20vw;
+  width: 35vw;
+  height: 35vw;
+  background-color: #f25d6e;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
