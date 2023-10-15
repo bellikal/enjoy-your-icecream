@@ -4,12 +4,6 @@ My first tiny github project!
 Ice Cream Shop Landing Page
 This project is a simple landing page for a fictional ice cream shop. It has been created using HTML, CSS, and SCSS to design an appealing user interface.
 
-Features
-- Display of information about the ice cream shop, including opening hours and contact details.
-- Appealing design and layout for a better user experience.
-- Utilization of SCSS for structuring and organizing the CSS stylesheet.
-
-
 Open the Landing Page:
 Open the index.html file in your web browser to view the landing page.
 
@@ -27,12 +21,6 @@ If you have suggestions for improvement or find bugs, I appreciate your contribu
 
 Eisladen Landing Page
 Dieses Projekt ist eine einfache Landing Page für einen fiktiven Eisladen. Es wurde mit HTML, CSS und SCSS erstellt, um eine ansprechende Benutzeroberfläche zu gestalten.
-
-Funktionalitäten
-- Darstellung von Informationen über den Eisladen, einschließlich Öffnungszeiten und Kontaktinformationen.
-- Ansprechendes Design und Layout für eine bessere Benutzererfahrung.
-- Verwendung von SCSS zur Strukturierung und Organisation des CSS-Stylesheets.
-  
 
 Öffnen der Landing Page:
 Öffne die index.html-Datei in deinem Webbrowser, um die Landing Page anzuzeigen.
